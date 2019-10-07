@@ -17,6 +17,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'My tests',
+    icon: 'edit-2-outline',
+    children: [
+      {
+        title: 'My page',
+        link: '/pages/admin/mypage',
+      },
+    ],
+  },  
+  {
     title: 'Layout',
     icon: 'layout-outline',
     children: [
